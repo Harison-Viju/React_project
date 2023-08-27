@@ -1,0 +1,53 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  height: 778px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+input {
+  background-color: grey;
+  color: white;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+}
+
+input::placeholder {
+  color: white;
+}
+
+button[type='submit'] {
+  padding: 0.5rem 1rem;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  color: azure;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn {
+  background-color: rgb(98, 102, 102);
+}
+
+.btn:hover {
+  background-color: #ff2255;
+  transform: scale(1.05);
+}
+
+.btn:active {
+  background-color: #ff0033;
+  transform: scale(0.95);
+}
+
+.btn1 {
+  margin-left: 69px;
+  background-color: aqua;
+}

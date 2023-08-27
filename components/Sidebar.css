@@ -1,0 +1,32 @@
+/* Sidebar.css */
+
+.sidebar {
+    width: 100px;
+    background-color: #8d8b8b;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left:0;
+    align-items: flex-start;
+  }
+  
+  .sidebar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+
+  
+  .sidebar-nav li a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .sidebar-nav li a:hover {
+    color: #ff3366;
+  }
+  
